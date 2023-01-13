@@ -1,0 +1,36 @@
+program for hello python
+
+print("hello python")
+
+Write a Python program to do arithmetical operations addition and division.?
+
+a=7
+b=9
+add = a+b
+div = a/b
+print("addtion",add)
+print("division",div)
+
+triangle area
+
+breadth = 4
+height = 3
+
+area = 1/2*breadth*height
+
+print("area is equal to ", area)
+
+Write a Python program to swap two variables?
+a =9
+b= 7 
+
+c=b
+b=a
+a=c
+print("swapped numbers",a,b)
+
+Write a Python program to generate a random number?
+
+import random
+random.randint(0,6)
+
