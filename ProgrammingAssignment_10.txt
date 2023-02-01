@@ -1,0 +1,93 @@
+Write a Python program to find sum of elements in list?
+sum = 0
+for i in a:
+    sum = sum+i
+print("sum of elements in list",sum)
+
+Write a Python program to Multiply all numbers in the list?
+mul = 1
+for i in a:
+    mul = mul*i
+print("multiplication of elements in list",mul)
+
+Write a Python program to find smallest number in a list?
+minimum = a[0]
+for i in range(1,len(a)):
+    if minimum>a[i]:
+        minimum = a[i]
+print("minimum is " , minimum)
+
+Write a Python program to find largest number in a list?
+
+maximum = a[0]
+for i in range(1,len(a)):
+    if maximum<a[i]:
+        maximum = a[i]
+print("maximum is " , maximum)
+
+Write a Python program to find N largest elements from a list?
+v=[]
+print("enter the n value")
+n=int(input())
+for i in range(n):
+for i in range(1,len(v)):
+    if maximum<v[i]:
+        maximum = v[i]
+print("maximum is " , maximum)
+
+Write a Python program to print odd number
+j=[]
+for i in even:
+    if i%2==1:
+        j.append(i)
+print("odd numbers are" , j) 
+
+Write a Python program to print even numbers in a list?
+b=[]
+for i in even:
+    if i%2==0:
+        b.append(i)
+print("even numbers are" , b) 
+  
+Write a Python program to Remove empty List from List?
+k = [[1,2,3,4,5],[],[4,5,6,7]]
+k.remove([])
+
+Write a Python program to Cloning or Copying a list?
+k = [[1, 2, 3, 4, 5], [4, 5, 6, 7]]
+l = k.copy()
+print(l)
+
+Write a Python program to Count occurrences of an element in a list?
+
+count=0
+l=[]
+print("enter the n value")
+n=int(input())
+for i in range(n):
+    l.append(int(input()))
+print(l)
+print("enter the number to be checked")
+check = int(input())
+for i in l:
+    if i==check:
+        count = count+1
+print('occurance',count)
+
+Write a Python program to find N largest elements from a list?
+v=[]
+print("enter the n value")
+n=int(input())
+for i in range(n):
+    v.append(int(input()))
+maximum = v[0]
+for i in range(1,len(v)):
+    if maximum<v[i]:
+        maximum = v[i]
+print("maximum is " , maximum)
+
+Write a Python program to find second largest number in a list?
+
+v =[45,75,100,98,60]
+v.sort()
+print("second largest number is " , v[-2])
